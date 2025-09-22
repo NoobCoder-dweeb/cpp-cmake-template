@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.10)
 get_filename_component(PROJECT_NAME ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 project(${PROJECT_NAME} LANGUAGES CXX)
 
-# Use C++17
+# Use C++17 (Change if necessary)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
