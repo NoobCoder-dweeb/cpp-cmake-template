@@ -1,0 +1,18 @@
+# Makefile to build, run and clean project
+.PHONY: build run
+BUILD := build
+TARGET := $(notdir $(CURDIR))
+
+build:
+	cmake -S . -B $(BUILD)
+	cmake --build $(BUILD)
+
+run: build
+	@echo ""
+	@echo ""
+	./$(BUILD)/$(TARGET)
+	@echo ""
+	@echo "Application ends..."
+
+clean:
+	rm -rf ./$(BUILD)
