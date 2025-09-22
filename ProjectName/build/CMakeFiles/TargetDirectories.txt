@@ -1,0 +1,3 @@
+/home/exiler/cpp-cmake-template/ProjectName/build/CMakeFiles/ProjectName.dir
+/home/exiler/cpp-cmake-template/ProjectName/build/CMakeFiles/edit_cache.dir
+/home/exiler/cpp-cmake-template/ProjectName/build/CMakeFiles/rebuild_cache.dir

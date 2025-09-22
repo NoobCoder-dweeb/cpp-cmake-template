@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/exiler/cpp-cmake-template/ProjectName/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
